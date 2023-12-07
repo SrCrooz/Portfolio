@@ -1,0 +1,90 @@
+
+@font-face {
+    font-family: 'nova';
+    src: url('RACING\ HARD.ttf');
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 600;
+}
+
+body {
+
+    transition: top .3s linear;
+
+    
+    background: #07121f;
+    background: linear-gradient(to bottom,#000 0%,#07121f 100%);
+    
+}
+
+#horas, #minutos, #segundos{
+    font-family:Helvetica,Trebuchet,sans-serif;
+}
+
+.pontos{
+
+  color: #fff;
+   
+}
+
+
+h1 {
+
+    letter-spacing: -.024em;
+    font-family: system-ui,sans-serif;
+    font-weight: 900;
+    line-height: 1.2;
+    margin: 0 0 calc(28px - 0.24rem);
+    word-break: break-word;
+
+    color: #fff;
+    font-size: 1.719em;
+    
+   
+}
+
+section {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.relogio {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: .3125rem;
+    
+}
+
+.relogio div {
+    
+    color: #fff;
+    width: 50%;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+    
+}
+
+.relogio span {
+    font-size: 12rem;
+}
+
+.relogio span.tempo {
+    font-size: 76rem;
+}
+
+.relogio span #segundos{
+    color: aqua;
+}

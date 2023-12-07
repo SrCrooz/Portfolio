@@ -1,0 +1,16 @@
+:root {
+  --white: #ffffff;
+  --gray: #ffffff;
+  --black: #000000;
+  --primary-color: #f0f0f0;
+  --secondary-color: #0c5bb6;
+  --dark-secondary-color:#1132eb;
+  --tertiary-color: #08f973;
+  --light-tertiary-color: #f3f6fb;
+  --text-color: #343d48;
+
+  --font-family: 'DM Sans', sans-serif;
+
+  background: rgb(8,249,115);
+background: linear-gradient(0deg, rgba(8,249,115,1) 42%, rgba(0,0,0,1) 63%);
+}

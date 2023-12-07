@@ -1,0 +1,74 @@
+@font-face {
+    font-family: fonte;
+    src: url(Fragmentcore.otf);
+}
+
+@font-face {
+    font-family: desing;
+    src: url(DESIGNER.otf);
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#0a0202e8;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    place-items: center;
+}
+
+h1{
+    color: #17f1a9;
+    position: absolute;
+    top: 2%;
+    font-family: desing, Arial, Helvetica, sans-serif;
+}
+
+.calculadora{
+    
+    background: rgba(0, 0, 0, 0.849);
+    border-radius: 10px;
+    padding: 2%;
+    box-shadow: 0 25px 60px -10px rgba(20, 218, 96, 0.5);
+}
+
+h2{
+    font-size: 1.5rem;
+
+}
+
+#resultado{
+    background: #000000;
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    text-align: right;
+    padding: 2%;
+    overflow: hidden;
+    width: 14rem; 
+    height: 2rem;
+}
+
+button{
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin: .2rem;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    transition: all .5s;
+}
+
+button:hover{
+    border: 2px solid #14ac6d;
+    background: #0ecdd4fd; 
+    transform: scale(90%);
+ 
+}
